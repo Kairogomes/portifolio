@@ -15,9 +15,9 @@ body{
 }
 .background {
     background: linear-gradient(rgb(0,0,0,0.5)) rgb(0,0,0,0.5);
-    background-image: url(../imagens/transferir\ \(1\).jpg);
-    background-size: contain;
-    background-position: right;
+    background-image: url(../imagens/backgroundprincipal.jpg);
+    background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100vh;
 }
@@ -27,28 +27,24 @@ header{
     max-width: 100%;
     align-items: center;
     text-align: center;
-    padding-top: 1rem ;
 }
 .cabeçalho {
     display: flex;
-    gap: 3rem;
-    font-weight: 300px;
+    gap: 2rem;
     cursor: pointer;
 }
 .cabeçalho a{
-    display: flex;
-    gap: 3rem;
-    font-weight: 300;
-    color: orangered;
-    font-size: 15px;
+    color: rgba(255, 68, 0, 0.914);
+    font-size: 13px;
+    padding-top: 9px;
 }
 .cabeçalho a:hover{
     color: rgba(255, 68, 0, 0.507);
     transition: 0.3s all;
 }
 .logo i{
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     background: transparent;
     border: 1px solid orangered;
     color: orangered;
@@ -67,7 +63,7 @@ button{
     color: orangered;
     background: transparent;
     border: solid 1px orangered ;
-    padding: 5px;
+    padding: 3px;
     border-radius: 15px;
     font-size: 15px;
     cursor: pointer;
@@ -77,27 +73,31 @@ button:hover{
     transition: 0.3s;
 }
 .conteudo{
-    padding: 200px 345px;
+    padding: 150px 130px;
 }
 h3{
     color: rgba(255, 68, 0, 0.651);
     font-size: 20px;
 }
 h1{
-    background-color: rgba(128, 128, 128, 0.144);
+    color: rgba(0, 0, 0, 0.679);
+    font-size: 25px;
+    background-color: rgba(128, 128, 128, 0.384);
     max-width: 300px;
     border-radius: 30%;
-
+}
+h1:hover{
+    color: rgba(255, 255, 255, 0.451);
+    cursor: pointer;
 }
 p{
     color: azure;
-    font-size: 20px;
+    font-size: 15px;
     background-color: rgba(128, 128, 128, 0.562);
     border-radius: 5%;
-    max-width: 80vh;
+    max-width: 50vh;
 }
 .redes a{
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    margin-top: 5px;
+    color: rgba(115, 115, 115, 0.792);
+    padding: 15px;
 }
