@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 500px) {
+    p {
+        width: 20px;
+        color: aqua;
+    }
+    
+}
